@@ -14,7 +14,9 @@ New features:
 
 Bug fixes:
 
-- *add item here*
+- Allow encoded strings as well as an original value for a widget.
+  This allows graceful upgrades from zope.schema.Text and TextLine to RichTextValue.
+  [gforcada]
 
 
 1.2.11 (2018-04-08)
