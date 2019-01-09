@@ -89,6 +89,8 @@ class RichTextConverter(BaseDataConverter):
             return value
         elif isinstance(value, unicode):
             return self.field.fromUnicode(value)
+        elif isinstance(value, str):
+            return self.field.fromUnicode(value.decode('utf-8'))
         elif value is None:
             return None
         raise ValueError(
