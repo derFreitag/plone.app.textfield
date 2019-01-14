@@ -2,7 +2,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '1.2.11.post0'
+version = '1.2.11.post1.dev0'
 
 setup(
     name='plone.app.textfield',
